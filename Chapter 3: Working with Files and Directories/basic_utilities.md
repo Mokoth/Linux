@@ -16,3 +16,14 @@ Most input lines entered at the shell prompt have three basic elements
 Command
 Options -p --print
 Arguments
+
+# First bash script
+#!/bin/bash
+echo 'Hello $(whoami), your id: $(id)'
+
+# TODO: Variables 
+name='James'
+age=21
+
+echo "$(age) old me is older than $(name)."
+

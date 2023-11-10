@@ -54,4 +54,14 @@ echo "${transport[@]}"
 # @ - all args
 # [] - index
 
+unset transport[2]
 
+transport[2] = 'Plane'
+
+# conditionals
+[[]] or []
+-eq -ne -gt -lt
+if []
+then
+else
+fi

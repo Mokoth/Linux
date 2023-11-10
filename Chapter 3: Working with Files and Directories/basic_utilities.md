@@ -19,11 +19,39 @@ Arguments
 
 # First bash script
 #!/bin/bash
-echo 'Hello $(whoami), your id: $(id)'
+echo Hello $whoami, your id: $id
 
 # TODO: Variables 
 name='James'
 age=21
 
-echo "$(age) old me is older than $(name)."
+echo $age old me is older than $name
+
+# TODO: Parameters
+city=$1
+state=$2
+
+echo $1 $2 $3
+
+# Get the number of supplied args
+echo $#
+
+# running the above
+# ./test.sh Alex Noble Grace
+
+# TODO: read
+echo What is your city:
+read city
+echo You belong to one of the best cities, $city
+
+# arrays
+# create
+transport=('Bike', 'Car', 'Cycle')
+
+# access the indices
+echo "${transport[@]}"
+
+# @ - all args
+# [] - index
+
 

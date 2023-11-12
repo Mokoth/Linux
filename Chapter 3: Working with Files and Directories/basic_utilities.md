@@ -1,5 +1,24 @@
 ## Create, Move, and Copy
 
+- Make dir
+
+`mkdir dirname`
+
+`mkdir -p dirname/dir1name`
+
+- Rename a dir
+
+`mv dirname dir2name`
+
+- Create files
+
+`touch filename`
+
+- Create a file to a specific dir
+
+`touch . dirname/filename`
+
+
 Create an empty file and a directory. 
 Use touch to create an empty file and mkdir to create a directory.
 

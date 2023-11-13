@@ -41,6 +41,10 @@ tail: used to show the last few lines of a file.
 
 `tail -n 3 /etc/passwd | cat -n`
 
+`cat /etc/passwd | tail -n 3 | cat -n`
+
+![cut image](cut.png)
+
 cut: view a portion of the file - using delimiters -d
 
 `cut -d: -f2`

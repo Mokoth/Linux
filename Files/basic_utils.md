@@ -40,6 +40,7 @@ List all command - lists hidden files too such as __.bashrc__ or __.bash_history
 [CTRL] + [U] - Clear command from last to first part
 
 
+# Working with Files & Directories
 
 ## Create, Move, and Copy
 
@@ -47,7 +48,11 @@ List all command - lists hidden files too such as __.bashrc__ or __.bash_history
 
 `mkdir dirname`
 
-`mkdir -p dirname/dir1name`
+`mkdir -p dirname/dir1name` -> -p option to add parent dirs
+
+Take a look at the whole structure with __tree__ tool
+
+`tree .`
 
 - Rename a dir
 
@@ -59,7 +64,9 @@ List all command - lists hidden files too such as __.bashrc__ or __.bash_history
 
 - Create a file to a specific dir
 
-`touch . dirname/filename`
+`touch ./dirname/filename`
+`touch . dirname`
+`touch . dirname/dir1name/filename`
 
 cat: used to type out a file (or combine files).
 

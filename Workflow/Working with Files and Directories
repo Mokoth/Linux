@@ -1,0 +1,28 @@
+# Working with Files & Directories
+
+## Create, Move, and Copy
+
+- Make dir
+
+`mkdir dirname`
+
+`mkdir -p dirname/dir1name` -> -p option to add parent dirs
+
+Take a look at the whole structure with __tree__ tool
+
+`tree .`
+
+- Rename a dir
+
+`mv dirname dir2name`
+
+- Create files
+
+`touch filename`
+
+- Create a file to a specific dir
+
+`touch ./dirname/filename`
+`touch . dirname`
+`touch . dirname/dir1name/filename`
+

@@ -92,7 +92,7 @@
 
 - To help display results in a well suited tabular form using the '-t'
 
-`cat /etc/passwd | grep -v 'false\|nologin' | tr ':' ' ' | column -t
+`cat /etc/passwd | grep -v 'false\|nologin' | tr ':' ' ' | column -t`
 
 
 
@@ -100,7 +100,7 @@
 
 - In an instance where we do have one row too many, example for a user, using awk will help sort such result and display the 1st ($1) and last ($NF) result of the line
 
-`cat /etc/passwd | grep -v 'false\|nologin' | tr ":" " "  | awk '{print $1, $NF}'
+`cat /etc/passwd | grep -v 'false\|nologin' | tr ":" " "  | awk '{print $1, $NF}'`
 
 
 
